@@ -1,8 +1,11 @@
+
 {
   "homepage": "https://github.com/rohit025-ai/study_website",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
-
 }
+
