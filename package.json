@@ -2,6 +2,7 @@
   "homepage": "https://github.com/rohit025-ai/study_website",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   }
+
 }
