@@ -1,11 +1,22 @@
 
 {
+  "name": "study_website",
+  "version": "1.0.0",
+  "private": true,
   "homepage": "https://github.com/rohit025-ai/study_website",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.230.0"
+  },
   "scripts": {
-    "deploy": "gh-pages -d ."
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
 }
-
